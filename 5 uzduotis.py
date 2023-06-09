@@ -5,7 +5,7 @@
 
 from PIL import Image, ImageEnhance
 dog = Image.open('Teide.jpeg')
-enh = ImageEnhance.Contrast(dog)
+enh = ImageEnhance.Contrast(Teide)
 enh.enhance(1.3).show()
 
 #jišsaugoti:
